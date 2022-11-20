@@ -36,7 +36,7 @@ let tags = {
   'maker': 'Maker',
 }
 const defaultMenu = {
-  before: `  *┄┄┄┅┅❑ 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜 ❑┅┅┄┄┄*
+  before: `  *┄┄┄┅┅❑ 𝑃𝑢𝑡𝑏𝑜𝑡𝑧 ❑┅┅┄┄┄*
 ┏─────────────────⬣
 ┆ 𝑯𝒂𝒊, %ucapan %name!👋
 ┗┬──────────────┈ ⳹
@@ -57,7 +57,7 @@ const defaultMenu = {
 ┆♠︎ *Limit* : Ⓛ 
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
-┆♠︎ *Penulis Ulang:* 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜
+┆♠︎ *Penulis Ulang:* 𝑃𝑢𝑡𝑏𝑜𝑡𝑧
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
@@ -214,22 +214,22 @@ const _0x38cd6a=_0x5d98;function _0x5d98(_0x25e3e9,_0x34161d){const _0x351343=_0
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '【𝙔𝙤𝙪𝙩𝙪𝙗𝙚⛽】',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    displayText: '【𝑇𝑖𝑘𝑡𝑜𝑘📥】',
+                                    url: 'tiktok.com/@xylarkyagesya'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙎𝙘𝙧𝙞𝙥𝙩🎗️】',
+                                    displayText: '【𝑆𝑐𝑟𝑖𝑝𝑡🎗️】',
                                     id: '/sc'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙎𝙚𝙬𝙖🚀】',
+                                    displayText: '【𝑆𝑒𝑤𝑎🚀】',
                                     id: '/sewa'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙊𝙬𝙣𝙚𝙧🎀】',
+                                    displayText: '【𝑂𝑤𝑛𝑒𝑟🎀】',
                                     id: '/owner'
                                 }
                             }]
