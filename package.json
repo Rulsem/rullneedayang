@@ -1,7 +1,7 @@
 {
-    "name": "oscar-md",
+    "name": "𝑃𝑢𝑡𝑏𝑜𝑡𝑧",
     "version": "1.0.2",
-    "description": "Oscar Multi Device",
+    "description": "𝑃𝑢𝑡𝑏𝑜𝑡𝑧 Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
@@ -23,7 +23,7 @@
     ],
     "homepage": "Soon",
     "author": {
-        "name": "Jarot"
+        "name": "𝑃𝑢𝑡𝑏𝑜𝑡𝑧"
     },
     "repository": {
         "type": "git",
