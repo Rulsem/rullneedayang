@@ -32,7 +32,7 @@ item1.TEL;waid=60147366954:60147366955@s.whatsapp.net
 item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
 item2.EMAIL;type=INTERNET: putrawan461@gmail.com
 item2.X-ABLabel:📫 Gmail
-item3.ADR:;;📍 Acehnese - Malaysia;;;;
+item3.ADR:;;📍 Selangor - Malaysia;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:📮 Location Owner
 item4.URL:tiktok.com/@xylarkyagesya
