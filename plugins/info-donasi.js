@@ -2,7 +2,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `
 「 Suport Bot Dengan Cara donasi 」
 
-⫹⫺ Via TNG : 1133631514
+⫹⫺ Via TNG : 0163644714
 
 `.trim()
   m.reply(text)
