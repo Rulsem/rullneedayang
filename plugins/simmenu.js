@@ -7,8 +7,8 @@ let jimp = require("jimp");
 let PhoneNumber = require("awesome-phonenumber");
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let hao = ` 
- *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"6285850539404".split("@")[0]}*`;
+ *Official Bot By @${"0".split("@")[0]}* 
+ *Powered By @${"60102408450".split("@")[0]}*`;
   let package = JSON.parse(
     await fs.promises
       .readFile(path.join(__dirname, "../package.json"))
@@ -136,7 +136,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┏┆⚘ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝙍𝙪𝙡 𝙗𝙤𝙩
 ┆┆⚘ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛
 ┆┆⚘ 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚠𝚗𝚎𝚛
-┆┆http://wa.me/60147366955
+┆┆http://wa.me/60102408450
 ┆┆⚘ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
 ┆┆⚘ 𝙹𝚊𝚖: ${time} WIB
 ┆┆⚘ 𝙼𝚘𝚍𝚎: 「 ${mode}  」
@@ -160,9 +160,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK JANGAN LUPA SUSCRIBE YOUTUBE BOT SEBAGAI BENTUK SUPORT BOT
 
  *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"60147366955".split("@")[0]}*`;
+ *Powered By @${"60102408450".split("@")[0]}*`;
   const listMessage = {
-    text: `𝙷𝚊𝚒 ${name} Jangan 𝚂𝚙𝚊𝚖 𝚈𝚊`.trim(),
+    text: `𝙷𝚊𝚒 ${name} Jangan bnyk ckp pakai je`.trim(),
     footer: "Jangan Lupa Folow Tiktok Ku Yah Kak >//<",
     title: wm,
     buttonText: "Pilih Disini",
@@ -214,16 +214,16 @@ function clockString(ms) {
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(":");
 }
 function ucapan() {
-  const time = moment.tz("Asia/Jakarta").format("HH");
+  const time = moment.tz("Asia/Sabah").format("HH");
   res = "Selamat dinihari";
   if (time >= 4) {
     res = "Selamat pagi";
   }
   if (time > 10) {
-    res = "Selamat siang";
+    res = "Selamat tengah hari";
   }
   if (time >= 15) {
-    res = "Selamat sore";
+    res = "Selamat petang";
   }
   if (time >= 18) {
     res = "Selamat malam";
@@ -231,7 +231,7 @@ function ucapan() {
   return res;
 }
 function ucapanl() {
-  const timel = moment.tz("Asia/Jakarta").format("HH");
+  const timel = moment.tz("Asia/Sabah").format("HH");
   resl = "Selamat dinihari 🎑";
   if (timel >= 4) {
     resl = "Good Morning 🌅";
