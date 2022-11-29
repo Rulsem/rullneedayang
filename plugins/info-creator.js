@@ -28,7 +28,7 @@ VERSION:3.0
 N:;;;
 FN: ᯤ 𝙍𝙪𝙡𝙗𝙤𝙩
 item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=60163644714:60163644714@s.whatsapp.net
+item1.TEL;waid=60102408450:60102408450@s.whatsapp.net
 item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
 item2.EMAIL;type=INTERNET: botprvt@gmail.com
 item2.X-ABLabel:📫 Gmail
@@ -68,16 +68,16 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "⊙─❲ *SELAMAT DINIHARI* ❳"
+  const time = moment.tz('Asia/Sabah').format('HH')
+  res = "⊙─❲ *SELAMAT SUBUH* ❳"
   if (time >= 4) {
     res = "⊙─❲ *SELAMAT PAGI* ❳"
   }
   if (time > 10) {
-    res = "⊙─❲ *SELAMAT SIANG* ❳"
+    res = "⊙─❲ *SELAMAT TENGAH HARI* ❳"
   }
   if (time >= 15) {
-    res = "⊙─❲ *SELAMAT SORE* ❳"
+    res = "⊙─❲ *SELAMAT PETANG* ❳"
   }
   if (time >= 18) {
     res = "⊙─❲ *SELAMAT MALAM* ❳"
